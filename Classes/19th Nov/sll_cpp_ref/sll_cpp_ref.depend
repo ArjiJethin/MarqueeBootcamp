@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1763534982 source:c:\wyaat\dsu\bootcamp 1\19112025\sll_cpp_ref\sll_cpp_ref_srccode.cpp
+	<malloc.h>
+	"sll_cpp_ref.h"
+	<stdio.h>
+
+1763537100 c:\wyaat\dsu\bootcamp 1\19112025\sll_cpp_ref\sll_cpp_ref.h
+
+1763534756 source:c:\wyaat\dsu\bootcamp 1\19112025\sll_cpp_ref\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	"sll_cpp_ref.h"
+
