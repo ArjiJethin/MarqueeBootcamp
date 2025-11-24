@@ -264,5 +264,6 @@ class sll_test {
 		list1.delAt(17);
 		list1.print();
 
+		kbrd.close();
 	}
 }
