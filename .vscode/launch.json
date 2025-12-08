@@ -1,6 +1,13 @@
 {
     "configurations": [
         {
+            "type": "java",
+            "name": "Sieve",
+            "request": "launch",
+            "mainClass": "W2Day1.Sieve",
+            "projectName": "Marquee_217912ca"
+        },
+        {
             "name": "C/C++: clang.exe build and debug active file",
             "type": "cppdbg",
             "request": "launch",
