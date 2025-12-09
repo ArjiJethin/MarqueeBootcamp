@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BaseConversions",
+            "request": "launch",
+            "mainClass": "W2Day2.BaseConversions",
+            "projectName": "Marquee_217912ca"
+        },
+        {
+            "type": "java",
             "name": "Sieve",
             "request": "launch",
             "mainClass": "W2Day1.Sieve",

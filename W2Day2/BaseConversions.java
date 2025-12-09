@@ -1,0 +1,74 @@
+package W2Day2;
+
+import java.util.*;
+
+public class BaseConversions {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.printf(
+                "1)Binary to Decimal\n2)Decimal to binary\n3)Octal to Decimal\n4)Decimal to Octal\nEnter your Choice:");
+        int choice = sc.nextInt();
+
+        switch (choice) {
+            case 1:
+                long binary = sc.nextLong();
+                long result1 = 0;
+                int pow = 0;
+
+                while (binary != 0) {
+                    result1 += (binary % 10) * (1L << pow);
+                    pow++;
+                    binary /= 10;
+                }
+
+                System.out.print(result1);
+
+                break;
+
+            case 2:
+                long decimal2 = sc.nextLong();
+                int place1 = 1;
+                long result2 = 0;
+                while (decimal2 != 0) {
+                    result2 += (decimal2 % 2) * place1;
+                    place1 *= 10;
+                    decimal2 /= 2;
+                }
+                System.out.print(result2);
+                break;
+
+            case 3:
+                long octal = sc.nextLong();
+                long result3 = 0;
+                int pow1 = 0;
+
+                while (octal != 0) {
+                    result3 += (octal % 10) * (1L << (3 * (pow1)));
+                    pow1++;
+                    octal /= 10;
+                }
+
+                System.out.print(result3);
+                break;
+
+            case 4:
+                long decimal4 = sc.nextLong();
+                int place2 = 1;
+                long result4 = 0;
+                while (decimal4 != 0) {
+                    result4 += (decimal4 % 8) * place2;
+                    place2 *= 10;
+                    decimal4 /= 8;
+                }
+                System.out.print(result4);
+
+                break;
+
+        }
+
+        sc.close();
+
+    }
+
+}
