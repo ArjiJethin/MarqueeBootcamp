@@ -81,7 +81,7 @@ public class Calendar {
 
         int start_day = dayofweek(1, month_num, year);
 
-        // Blank spaces for the first week
+        // Blank spaces
         for (int i = 0; i < start_day; i++) {
             System.out.printf("%6s", "");
         }
@@ -90,7 +90,7 @@ public class Calendar {
         for (int date = 1; date <= tot_dates_month[month_num]; date++) {
             System.out.printf("%6d", date);
 
-            // Check if we need a new line (end of week)
+            // new line (end of week)
             if ((start_day + date) % 7 == 0) {
                 System.out.println();
             }
