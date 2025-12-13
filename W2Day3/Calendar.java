@@ -81,7 +81,7 @@ public class Calendar {
 
         int start_day = dayofweek(1, month_num, year);
 
-        // Blank spaces
+        // Blank spaces for the first week
         for (int i = 0; i < start_day; i++) {
             System.out.printf("%6s", "");
         }
