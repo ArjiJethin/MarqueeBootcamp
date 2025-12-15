@@ -2,6 +2,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SudokuSolver",
+            "request": "launch",
+            "mainClass": "W2D4.SudokuSolver",
+            "projectName": "Marquee_217912ca"
+        },
+        {
+            "type": "java",
+            "name": "CalendarGUI",
+            "request": "launch",
+            "mainClass": "W2Day3.CalendarGUI",
+            "projectName": "Marquee_217912ca"
+        },
+        {
+            "type": "java",
+            "name": "Calendar",
+            "request": "launch",
+            "mainClass": "W2Day3.Calendar",
+            "projectName": "Marquee_217912ca"
+        },
+        {
+            "type": "java",
+            "name": "JumbledNumWords",
+            "request": "launch",
+            "mainClass": "W2Day2.JumbledNumWords",
+            "projectName": "Marquee_217912ca"
+        },
+        {
+            "type": "java",
+            "name": "Pangrams",
+            "request": "launch",
+            "mainClass": "W2Day2.Pangrams",
+            "projectName": "Marquee_217912ca"
+        },
+        {
+            "type": "java",
+            "name": "Anagram",
+            "request": "launch",
+            "mainClass": "W2Day2.Anagram",
+            "projectName": "Marquee_217912ca"
+        },
+        {
+            "type": "java",
+            "name": "LastDigit",
+            "request": "launch",
+            "mainClass": "W2Day2.LastDigit",
+            "projectName": "Marquee_217912ca"
+        },
+        {
+            "type": "java",
             "name": "BaseConversions",
             "request": "launch",
             "mainClass": "W2Day2.BaseConversions",
