@@ -1,5 +1,6 @@
 import java.util.Scanner;
-  // 2 3 4 5 6 7 8 9 ...........
+
+// 2 3 4 5 6 7 8 9 ...........
 // 2503
 // 2 3 4 5 6 7 .............51
 // 2 3 4 5 6 7 8 9 10 11
@@ -11,45 +12,38 @@ import java.util.Scanner;
 //2 3 5 7  11 13  17 19 23 25 29 31 35 37 41 43 47 49 
 // 5 7 11 13 17 19 23 25 29 31 35 37 41 43 47 49
 //  2 4  2  4  2  4  2  4
-class prime_v4
-{
-	public static void main( String [] parameters )
-	{
-		Scanner kbrd = new Scanner ( System.in );
+class prime_v4 {
+	public static void main(String[] parameters) {
+		Scanner kbrd = new Scanner(System.in);
 		long num;
 		num = kbrd.nextLong();
+		kbrd.close();
 		boolean factor_found_flag;
 		factor_found_flag = false;
 		long start_time = System.currentTimeMillis();
-		long  cff;
+		long cff;
 		boolean add_2 = true;
-		if ( num % 2 == 0)
+		if (num % 2 == 0)
 			factor_found_flag = true;
-		else
-		{
-		for ( cff = 3; cff < Math.sqrt(num);)
-		{
-		    if ( num % cff == 0 )
-			{
-			     factor_found_flag = true;
-			     break;
+		else {
+			for (cff = 3; cff < Math.sqrt(num);) {
+				if (num % cff == 0) {
+					factor_found_flag = true;
+					break;
+				}
+				if (add_2 == true) {
+					cff += 2;
+					add_2 = false;
+				} else {
+					cff += 4;
+					add_2 = true;
+				}
 			}
-			if ( add_2 == true )
-			{
-				cff+=2;
-				add_2 = false;
-			}
-			else
-			{
-				cff+=4;
-				add_2 =  true;
-			}
-		}
 		}
 		// here
 		long stop_time = System.currentTimeMillis();
-		double duration = ( stop_time - start_time) / 1000.0;
-		System.out.printf("%s , time taken = %.3f", 
-		factor_found_flag == true ? "Composite" : "Prime", duration);
+		double duration = (stop_time - start_time) / 1000.0;
+		System.out.printf("%s , time taken = %.3f",
+				factor_found_flag == true ? "Composite" : "Prime", duration);
 	}
 }
