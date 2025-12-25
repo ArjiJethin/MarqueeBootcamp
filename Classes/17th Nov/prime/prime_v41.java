@@ -1,5 +1,6 @@
 import java.util.Scanner;
-  // 2 3 4 5 6 7 8 9 ...........
+
+// 2 3 4 5 6 7 8 9 ...........
 // 2503
 // 2 3 4 5 6 7 .............51
 // 2 3 4 5 6 7 8 9 10 11
@@ -12,35 +13,31 @@ import java.util.Scanner;
 // 5 7 11 13 17 19 23 25 29 31 35 37 41 43 47 49
 //  2 4  2  4  2  4  2  4
 // any prime number > 3 is  of the form 6n -1 or 6n+1
-class prime_v41
-{
-	public static void main( String [] parameters )
-	{
-		Scanner kbrd = new Scanner ( System.in );
+class prime_v41 {
+	public static void main(String[] parameters) {
+		Scanner kbrd = new Scanner(System.in);
 		long num;
 		num = kbrd.nextLong();
+		kbrd.close();
 		boolean factor_found_flag;
 		factor_found_flag = false;
 		long start_time = System.currentTimeMillis();
-		long  cff;
-		if ( num % 2 == 0 || num % 3 == 0)
+		long cff;
+		if (num % 2 == 0 || num % 3 == 0)
 			factor_found_flag = true;
-		else
-		{
-		for ( cff = 6; cff < Math.sqrt(num);cff+=6)
-		{
-		    if ( num % (cff-1) == 0 || num % (cff+1)==0)
-			{
-			     factor_found_flag = true;
-			     break;
-			}
+		else {
+			for (cff = 6; cff < Math.sqrt(num); cff += 6) {
+				if (num % (cff - 1) == 0 || num % (cff + 1) == 0) {
+					factor_found_flag = true;
+					break;
+				}
 
-		}
+			}
 		}
 		// here
 		long stop_time = System.currentTimeMillis();
-		double duration = ( stop_time - start_time) / 1000.0;
-		System.out.printf("%s , time taken = %.3f", 
-		factor_found_flag == true ? "Composite" : "Prime", duration);
+		double duration = (stop_time - start_time) / 1000.0;
+		System.out.printf("%s , time taken = %.3f",
+				factor_found_flag == true ? "Composite" : "Prime", duration);
 	}
 }
