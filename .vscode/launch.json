@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NSGNum",
+            "request": "launch",
+            "mainClass": "NSGNum",
+            "projectName": "Marquee_217912ca"
+        },
+        {
+            "type": "java",
+            "name": "MonsterDungeon",
+            "request": "launch",
+            "mainClass": "MonsterDungeon",
+            "projectName": "Marquee_217912ca"
+        },
+        {
+            "type": "java",
+            "name": "MovingApples",
+            "request": "launch",
+            "mainClass": "MovingApples",
+            "projectName": "Marquee_217912ca"
+        },
+        {
+            "type": "java",
             "name": "SudokuSolver",
             "request": "launch",
             "mainClass": "W2D4.SudokuSolver",
