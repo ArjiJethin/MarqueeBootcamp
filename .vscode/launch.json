@@ -2,6 +2,174 @@
     "configurations": [
         {
             "type": "java",
+            "name": "KeithDiv",
+            "request": "launch",
+            "mainClass": "W4Day1.KeithDiv",
+            "projectName": "Marquee_217912ca"
+        },
+        {
+            "type": "java",
+            "name": "ASCIIDiamond",
+            "request": "launch",
+            "mainClass": "W4Day1.Patterns.ASCIIDiamond",
+            "projectName": "Marquee_217912ca"
+        },
+        {
+            "type": "java",
+            "name": "InternalMarks",
+            "request": "launch",
+            "mainClass": "W4Day1.IfElse1.InternalMarks",
+            "projectName": "Marquee_217912ca"
+        },
+        {
+            "type": "java",
+            "name": "ThreeSiblings",
+            "request": "launch",
+            "mainClass": "W4Day1.IfElse1.ThreeSiblings",
+            "projectName": "Marquee_217912ca"
+        },
+        {
+            "type": "java",
+            "name": "Siblings",
+            "request": "launch",
+            "mainClass": "W4Day1.IfElse1.Siblings",
+            "projectName": "Marquee_217912ca"
+        },
+        {
+            "type": "java",
+            "name": "Friends",
+            "request": "launch",
+            "mainClass": "W4Day1.IfElse1.Friends",
+            "projectName": "Marquee_217912ca"
+        },
+        {
+            "type": "java",
+            "name": "VoteEligibility",
+            "request": "launch",
+            "mainClass": "W4Day1.IfElse1.VoteEligibility",
+            "projectName": "Marquee_217912ca"
+        },
+        {
+            "type": "java",
+            "name": "Parents",
+            "request": "launch",
+            "mainClass": "W4Day1.IfElse.Parents",
+            "projectName": "Marquee_217912ca"
+        },
+        {
+            "type": "java",
+            "name": "Age",
+            "request": "launch",
+            "mainClass": "W4Day1.IfElse.Age",
+            "projectName": "Marquee_217912ca"
+        },
+        {
+            "type": "java",
+            "name": "Name",
+            "request": "launch",
+            "mainClass": "W4Day1.IfElse.Name",
+            "projectName": "Marquee_217912ca"
+        },
+        {
+            "type": "java",
+            "name": "KeithNum",
+            "request": "launch",
+            "mainClass": "W4Day1.KeithNum",
+            "projectName": "Marquee_217912ca"
+        },
+        {
+            "type": "java",
+            "name": "Factors",
+            "request": "launch",
+            "mainClass": "W4Day1.Factors",
+            "projectName": "Marquee_217912ca"
+        },
+        {
+            "type": "java",
+            "name": "HollowSquare",
+            "request": "launch",
+            "mainClass": "W4Day1.HollowSquare",
+            "projectName": "Marquee_217912ca"
+        },
+        {
+            "type": "java",
+            "name": "ASCIIDiamond",
+            "request": "launch",
+            "mainClass": "W4Day1.ASCIIDiamond",
+            "projectName": "Marquee_217912ca"
+        },
+        {
+            "type": "java",
+            "name": "Diamond",
+            "request": "launch",
+            "mainClass": "W4Day1.Diamond",
+            "projectName": "Marquee_217912ca"
+        },
+        {
+            "type": "java",
+            "name": "Pyramid",
+            "request": "launch",
+            "mainClass": "W4Day1.Pyramid",
+            "projectName": "Marquee_217912ca"
+        },
+        {
+            "type": "java",
+            "name": "IRMostTriangle",
+            "request": "launch",
+            "mainClass": "W4Day1.IRMostTriangle",
+            "projectName": "Marquee_217912ca"
+        },
+        {
+            "type": "java",
+            "name": "RMostTriangle",
+            "request": "launch",
+            "mainClass": "W4Day1.RMostTriangle",
+            "projectName": "Marquee_217912ca"
+        },
+        {
+            "type": "java",
+            "name": "IRATriangle",
+            "request": "launch",
+            "mainClass": "W4Day1.IRATriangle",
+            "projectName": "Marquee_217912ca"
+        },
+        {
+            "type": "java",
+            "name": "RATriangle",
+            "request": "launch",
+            "mainClass": "W3Day6.RATriangle",
+            "projectName": "Marquee_217912ca"
+        },
+        {
+            "type": "java",
+            "name": "RectanglePatten",
+            "request": "launch",
+            "mainClass": "W4Day1.RectanglePatten",
+            "projectName": "Marquee_217912ca"
+        },
+        {
+            "type": "java",
+            "name": "squarePattern",
+            "request": "launch",
+            "mainClass": "W4Day1.squarePattern",
+            "projectName": "Marquee_217912ca"
+        },
+        {
+            "type": "java",
+            "name": "Leet80",
+            "request": "launch",
+            "mainClass": "Leet80",
+            "projectName": "Marquee_217912ca"
+        },
+        {
+            "type": "java",
+            "name": "DecToRom",
+            "request": "launch",
+            "mainClass": "W3Day6.DecToRom",
+            "projectName": "Marquee_217912ca"
+        },
+        {
+            "type": "java",
             "name": "NSGNum",
             "request": "launch",
             "mainClass": "NSGNum",
