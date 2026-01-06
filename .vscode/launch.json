@@ -2,6 +2,104 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NATO",
+            "request": "launch",
+            "mainClass": "W4Day1.Switch.NATO",
+            "projectName": "Marquee_217912ca"
+        },
+        {
+            "type": "java",
+            "name": "Plural",
+            "request": "launch",
+            "mainClass": "W4Day1.Switch.Plural",
+            "projectName": "Marquee_217912ca"
+        },
+        {
+            "type": "java",
+            "name": "AnimalPacks",
+            "request": "launch",
+            "mainClass": "W4Day1.Switch.AnimalPacks",
+            "projectName": "Marquee_217912ca"
+        },
+        {
+            "type": "java",
+            "name": "Polygon",
+            "request": "launch",
+            "mainClass": "W4Day1.Switch.Polygon",
+            "projectName": "Marquee_217912ca"
+        },
+        {
+            "type": "java",
+            "name": "Month",
+            "request": "launch",
+            "mainClass": "W4Day1.Switch.Month",
+            "projectName": "Marquee_217912ca"
+        },
+        {
+            "type": "java",
+            "name": "TypeofTri",
+            "request": "launch",
+            "mainClass": "W4Day1.IfElse2.TypeofTri",
+            "projectName": "Marquee_217912ca"
+        },
+        {
+            "type": "java",
+            "name": "SidesOfTri",
+            "request": "launch",
+            "mainClass": "W4Day1.IfElse2.SidesOfTri",
+            "projectName": "Marquee_217912ca"
+        },
+        {
+            "type": "java",
+            "name": "ThreeConsecNums",
+            "request": "launch",
+            "mainClass": "W4Day1.IfElse2.ThreeConsecNums",
+            "projectName": "Marquee_217912ca"
+        },
+        {
+            "type": "java",
+            "name": "TwoConsecNums",
+            "request": "launch",
+            "mainClass": "W4Day1.IfElse2.TwoConsecNums",
+            "projectName": "Marquee_217912ca"
+        },
+        {
+            "type": "java",
+            "name": "UnitDigWord",
+            "request": "launch",
+            "mainClass": "W4Day1.IfElse2.UnitDigWord",
+            "projectName": "Marquee_217912ca"
+        },
+        {
+            "type": "java",
+            "name": "DigitToString",
+            "request": "launch",
+            "mainClass": "W4Day1.IfElse2.DigitToString",
+            "projectName": "Marquee_217912ca"
+        },
+        {
+            "type": "java",
+            "name": "FizzBuzz",
+            "request": "launch",
+            "mainClass": "W4Day1.IfElse2.FizzBuzz",
+            "projectName": "Marquee_217912ca"
+        },
+        {
+            "type": "java",
+            "name": "CurrencyCon",
+            "request": "launch",
+            "mainClass": "W4Day1.IfElse2.CurrencyCon",
+            "projectName": "Marquee_217912ca"
+        },
+        {
+            "type": "java",
+            "name": "GmtoKg",
+            "request": "launch",
+            "mainClass": "W4Day1.IfElse2.GmtoKg",
+            "projectName": "Marquee_217912ca"
+        },
+        {
+            "type": "java",
             "name": "KeithDiv",
             "request": "launch",
             "mainClass": "W4Day1.KeithDiv",
