@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SuperUglyNumGen",
+            "request": "launch",
+            "mainClass": "SuperUglyNumGen",
+            "projectName": "Marquee_217912ca"
+        },
+        {
+            "type": "java",
             "name": "NATO",
             "request": "launch",
             "mainClass": "W4Day1.Switch.NATO",
