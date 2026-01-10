@@ -1,0 +1,51 @@
+Palindrome by Front Insertion
+Last Updated : 26 Jul, 2025
+Given a string s consisting of only lowercase English letters, find the minimum number of characters that need to be added to the front of s to make it a palindrome.
+Note: A palindrome is a string that reads the same forward and backward.
+
+Examples: 
+
+Input: s = "abc"
+Output: 2
+Explanation: We can make above string palindrome as "cbabc", by adding 'b' and 'c' at front.
+
+Input: s = "aacecaaaa"
+Output: 2
+Explanation: We can make above string palindrome as "aaaacecaaaa" by adding two a's at front of string.
+
+"aacecaaabcd"
+aacecaaaa
+
+
+a			1
+aa			2
+aac		
+aace
+aacec
+aaceca
+aacecaa			7
+aacecaaa
+aacecaaaa		
+
+
+
+			abcecdde
+			3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

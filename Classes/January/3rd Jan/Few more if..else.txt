@@ -1,0 +1,136 @@
+Write a program to accept the wind speed in terms of miles per hour and display the type accordingly using the chart given below
+Beaufort Scale Wind Names & Speeds (Examples)
+(Calm): < 1 mph .
+(Light Breeze): 4-7 mph 
+(Moderate Breeze): 13-18 mph
+(Strong Breeze): 25-31 mph
+(Gale): 39-46 mph 
+(Storm): 55-63 mph 
+(Hurricane): 74+ mph
+
+___________________________________________________________________________
+
+Write a program to accept a weight in grams, convert it into Kilograms and print 
+
+Input:
+78459
+
+Output:
+78 Kilos and 459 Grams
+
+___________________________________________________________________________
+
+An exchange rate is the value or price of one country's currency in relation to another country's currency. It determines how much of one currency you can get for a specific amount of another currency. 
+For example, an exchange rate of USD $1: R17.44 means that one US dollar can be exchanged for 17.44 South African Rand. 
+Write a program to accept two values, 'Indian_Rupees' and 'Conversion_to_dollar' and find the amount of dollars it can be equated to.
+
+Input : 15000 87.55
+
+Output : 171 Dollars and 50 Cents
+
+Explanation :
+15000 / 87.45 is 171.5265866, it can be translated to 171 Dollars and 52 cents, 52 cents is rounded off to 50
+Round off to nearest 5's multiples
+51,52 becomes 50
+53,54 becomes 55 
+
+ 
+
+___________________________________________________________________________
+
+FizzBuzz is a well-known problem often found in coding interviews. It's a simple way to check your understanding of loops and conditions. Let's break it down: The Problem You need to write a program that counts from 1 to n. But, there's a twist:
+For numbers that are multiples of 3, you should print "Fizz" instead.
+For multiples of 5, print "Buzz".
+And for numbers that are multiples of both 3 and 5, print "FizzBuzz".
+Accept an integer 'n' and print the output
+
+Sample
+10
+1
+2
+Fizz
+4
+Buzz
+Fizz
+7
+8
+Fizz
+Buzz
+
+___________________________________________________________________________
+
+Write a program to accept a digit in the range 0 to 9 and print the word
+
+Input
+6
+
+Output
+Six
+
+___________________________________________________________________________
+
+Write a program to accept a number and print the word of the unit digit of the number
+
+Input
+1562
+
+Output
+Two
+
+___________________________________________________________________________
+
+Write a program to accept a number 'n' which is the sum of two continuous integers, the input 'n' can be positive or negative, print the two consecutive numbers
+
+Sample
+19
+
+Output
+9 10
+
+Sample
+-201
+
+Output
+-100 -101 
+
+___________________________________________________________________________
+
+Write a program to accept a number 'n' which is the sum of three continuous integers, the input 'n' can be positive or negative, print the three consecutive numbers
+
+Sample
+33
+
+Output
+10 11 12
+
+Sample
+-138
+
+Output
+-45 -46 -47 
+
+___________________________________________________________________________
+
+Write a program to accept 3 lengths and check if it can used to form a triangle, expected output is Yes/No
+
+Sample
+4 8 7
+
+Output
+Yes
+
+Sample
+4 9 3
+
+Output
+No
+
+
+___________________________________________________________________________
+
+Write a program to accept 3 lengths and find the type of triangle it can form.
+Note:
+Triangles are classified by their sides (Equilateral: 3 equal sides; Isosceles: 2 equal sides; Scalene: No equal sides)
+
+
+___________________________________________________________________________

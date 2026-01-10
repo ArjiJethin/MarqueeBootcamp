@@ -1,0 +1,96 @@
+import java.util.*;
+
+public class Main {
+
+    // Represents one State for the BFS
+    static class State {
+        int moves;
+        int position;
+        int speed;
+
+        // Constructor for saving the states
+        State(int m, int p, int s) {
+            moves = m;
+            position = p;
+            speed = s;
+        }
+    }
+
+    public static int racecar(int target) {
+
+        // Queue for BFS
+        Queue<State> queue = new LinkedList<>();
+        queue.offer(new State(0, 0, 1)); // Start state with Moves = 0, Position = 0 and Speed = 1
+
+        // To track all the visited states
+        Set<String> visited = new HashSet<>();
+
+        // Bounding the search space to limit excess traversal
+        int limit = target * 2;
+
+        while (!queue.isEmpty()) {
+
+            // Get the front state from the queue
+            State curr = queue.poll();
+
+            int moves = curr.moves;
+            int pos = curr.position;
+            int speed = curr.speed;
+
+            // If target is reached
+            if (pos == target) {
+                // BFS guarantees minimum since it explores level by level
+                return moves;
+            }
+
+            // Key format to store visited states (position,speed)
+            String key = pos + "," + speed;
+
+            if (visited.contains(key)) {
+                continue;
+            }
+
+            // Add the current position and speed to the hashset
+            visited.add(key);
+
+            // -------- Acceleration --------
+            int nextPos = pos + speed;
+            int nextSpeed = speed * 2;
+
+            // Bound the position to avoid unnecessary traversal
+            if (Math.abs(nextPos) <= limit) {
+                String nextKey = nextPos + "," + nextSpeed;
+
+                if (!visited.contains(nextKey)) {
+                    queue.offer(new State(moves + 1, nextPos, nextSpeed));
+                }
+            }
+
+            // -------- Reverse (Only when we are moving away from Target) --------
+            if ((speed > 0 && pos + speed > target) ||
+                (speed < 0 && pos + speed < target)) {
+
+                // When speed is +ve and we crossed the target
+                // When speed is -ve and we are moving backwards but target is ahead
+                int reversedSpeed = speed > 0 ? -1 : 1;
+
+                String revKey = pos + "," + reversedSpeed;
+
+                if (!visited.contains(revKey)) {
+                    queue.offer(new State(moves + 1, pos, reversedSpeed));
+                }
+            }
+        }
+
+        // Shouldn't happen but given just in case
+        return -1;
+    }
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        int target = sc.nextInt();
+
+        System.out.println(racecar(target));
+    }
+}

@@ -1,0 +1,136 @@
+Write a program to accept a month number and print the name of the month in your mother tongue preceded by your mother tongue
+
+Sample :
+8
+
+Output:
+
+Thamizh - Karthighai
+___________________________________________
+
+Write a program to accept the number of sides of the polygon and print the name of the polygon, for any wrong input, print an error message "Invalid Input"
+
+Notes:
+Common Polygon Names
+3 sides: Triangle (or Trigon)
+4 sides: Quadrilateral (or Tetragon)
+5 sides: Pentagon
+6 sides: Hexagon
+7 sides: Heptagon (or Septagon)
+8 sides: Octagon
+9 sides: Nonagon (or Enneagon)
+10 sides: Decagon
+11 sides: Hendecagon (or Undecagon)
+12 sides: Dodecagon
+13 sides: Triskaidecagon (or Tridecagon)
+20 sides: Icosagon 
+__________________________________________________________
+
+A group of animals is called by a specific collective noun, which varies by species, ranging from common terms like herd (cows, deer), flock (birds, sheep), or pack (wolves, dogs) to more unique names like a murder of crows, a parliament of owls, or a flamboyance of flamingos. These unique terms, sometimes called terms of venery, add colorful detail to the English language. 
+Write a program to accept an animal name and print the appropriate group name from the following table.
+Common Examples:
+Herd: Cows, elephants, deer, antelope.
+Flock: Birds, sheep, geese.
+Pack: Wolves, wild dogs, coyotes.
+Pride: Lions.
+School/Shoal: Fish.
+Pod: Dolphins, whales.
+Swarm/Colony: Bees, ants, insects. 
+Unique & Fun Examples:
+Apes: A shrewdness.
+Crows: A murder.
+Eagles: A convocation.
+Flamingos: A flamboyance.
+Giraffes: A tower.
+Hippos: A bloat or thunder.
+Owls: A parliament.
+Porcupines: A prickle.
+Zebras: A dazzle
+________________________________________________________
+In linguistics, grammatical number is a feature of nouns, pronouns, adjectives and verb agreement that expresses count distinctions. English and many other languages present number categories of singular or plural. Some languages also have a dual, trial and paucal number or other arrangements.
+Write a program to accept a word and print the plural form of it, you can restrict the program to work with any 12 singular words, but as an exercise read all of them.
+
+Singular	Plural
+woman	women
+man	men
+child	children
+tooth	teeth
+foot	feet
+person	people
+leaf	leaves
+mouse	mice
+goose	geese
+half	halves
+knife	knives
+wife	wives
+life	lives
+elf	elves
+loaf	loaves
+potato	potatoes
+tomato	tomatoes
+cactus	cacti
+focus	foci
+fungus	fungi
+nucleus	nuclei
+syllabus	syllabi/syllabuses
+analysis	analyses
+diagnosis	diagnoses
+oasis	oases
+thesis	theses
+crisis	crises
+phenomenon	phenomena
+criterion	criteria
+datum	data
+
+Sample
+fungus
+
+Output
+fungi
+________________________________________________________
+
+NATO Phonetic Alphabet (A-Z)
+A: Alpha
+B: Bravo
+C: Charlie
+D: Delta
+E: Echo
+F: Foxtrot
+G: Golf
+H: Hotel
+I: India
+J: Juliett (spelled with 'tt' for clarity)
+K: Kilo
+L: Lima
+M: Mike
+N: November
+O: Oscar
+P: Papa
+Q: Quebec
+R: Romeo
+S: Sierra
+T: Tango
+U: Uniform
+V: Victor
+W: Whiskey
+X: X-ray (or Xray)
+Y: Yankee
+Z: Zulu 
+How It's Used
+Spelling Words: To spell "CAT", you'd say "Charlie Alpha Tango".
+Common Phrases:
+Charlie Mike: Continue Mission
+Oscar Mike: On the Move
+Bravo Zulu: Good Job/Well Done
+Lima Charlie: Loud and Clear 
+Write a program to accept a character and print the code word for the letter, the user might enter either lower/upper case, your program should work for both.
+
+Input:
+u
+
+Output:
+Uniform
+
+Note : Learn the pronunciation for all the words
+_________________________________________________________
+

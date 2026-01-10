@@ -1,0 +1,51 @@
+DS
+
+		Do you need a DS?
+		What DS is appropriate?
+		What traversal is appropriate?
+		Do we need any SUPPORT
+		What do we do to every single NODE ?
+
+
+Sorting
+
+Rearrange / more than 1
+Array
+Linked Lists
+   0  1   2   3   4   5   6 
++---+---+---+---+---+---+---+---+---+---+---+---+---+---+
+|   |   | 45|   | 45|   |   | 45|   |   |   |   |   |   |   
++---+---+---+---+---+---+---+---+---+---+---+---+---+---+
+          2       4           7
+                                  8   9   10
+                                  2   4    7
+                          ^
+NODE
+Node Values   
+
+
+
+
+
+
+
+Selection
+
+Bubble / Sinking
+
+Insertion
+
+Shell - optional
+
+Quick
+
+Merge
+
+Heap
+
+dual pivot quick sort
+
+stable 	unstable
+
+100 1000 10000 100000 1000000
+

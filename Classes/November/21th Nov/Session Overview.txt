@@ -1,0 +1,26 @@
+Quick Revision
+
+Reverse the Linked List
+	Form a new Linked List and forego the old one
+		Additional space
+	Reverse the list, in place
+
+Stack / Queue
+
+Reverse print using stack
+
+Reverse the second half of the list
+
+Roll the Linked List
+
+Loop
+	Form a loop
+	Detect Loop
+	   Using non
+	   Using Visited
+	   Using two Pointers
+
+	Remove Loop
+	   Using non
+	   Using Visited
+	   Using two pointers

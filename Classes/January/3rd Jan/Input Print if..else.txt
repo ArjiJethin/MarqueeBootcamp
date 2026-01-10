@@ -1,0 +1,151 @@
+
+Write a program to accept your name and print
+
+Input : Sridhar Arumugasamy
+
+Output : My name is Sridhar Arumugasamy
+_____________________________________________________________
+
+Write a program to accept your age
+
+Input : 45
+
+Output : I am 45 Years Young
+
+_____________________________________________________________
+
+Write a program to accept your name, father's name and mother's name
+
+Input : Anbu Arumugasamy Kasthuri
+
+Output : My name is Anbu and I am proud child of Arumugasamy and Kasthuri
+_____________________________________________________________
+
+Write a program to accept the age of a person and print the output accordingly
+>= 18 "You are a Major, You are eligible to vote"
+< 18  "You are a Minor, You are not eligible to vote"
+
+_____________________________________________________________
+
+Write a program to take input of your name and your best friend's name
+
+Input : 
+Sridhar Arumugasamy
+Syamprakash
+
+Output : I am Sridhar Arumugasamy and my best friend is Syamprakash
+
+
+_____________________________________________________________
+
+Write a program to accept two siblings name and their respective age and print the output accordingly
+
+Input 1
+Sundari
+Lakhshmi
+45
+42
+Output 1 : Sundari is older than Lakhshmi
+Input  2
+Sridhar
+Anbu
+45
+50
+Output 2 : Anbu is older than Sridhar
+Input 3
+Luv
+Kush
+18
+18
+Output : Luv and Kush are Twins
+
+_____________________________________________________________
+
+Write a program to accept 3 names and siblings and their respective ages and print the output accordingly
+Note : Assume their ages are unique, none of them are twins or triplets
+
+Input 1
+Name1
+Name2
+Name3
+Age1
+Age2
+Age3
+
+Sample :
+
+Ramesh
+Gayathri
+Arun
+60
+50
+55
+
+Ramesh is the eldest
+Arun is the middle child
+Gayathri is the youngest
+
+_____________________________________________________________
+
+Write a program to accept 3 names and siblings and their respective ages and print the output accordingly
+Note : Ages need not be unique, may be there are twins or triplets
+
+Input 1
+Name1
+Name2
+Name3
+Age1
+Age2
+Age3
+
+Sample :
+Amar
+Akbar
+Antony
+35
+29
+29
+
+Amar is the eldest
+Akbar and Antony are twins
+_____________________________________________________________
+
+ABC college conducts 3 internal exams for every paper, the average of the highest two scores is taken as the final score, given three marks find the final Score, final score is always an integer, round to the next higher integer
+
+Input:
+Mark1
+Mark2
+Mark3
+
+Sample:
+80 
+70 
+75
+
+Output
+78
+
+Explanation : Two higher scores are 80 and 75, 80+75 is 155, 155/2 is 77.5, rounded off to next higher integer , hence 78
+
+_____________________________________________________________
+
+ABC college conducts 4 internal exams for every paper, the average of the highest three scores is taken as the final score, given four marks find the final Score, final score is always an integer, round to the next higher integer accordingly, less than .5 should be rounded to lower integer and .5 or more should be rounded to higher integer
+
+Input:
+Mark1
+Mark2
+Mark3
+
+Sample:
+72 
+70 
+65
+71
+
+Output
+71
+
+Explanation : Three higher scores are 70, 71 and 72 , 70+71+72 is 214, 214/3 is 71.33, rounded off to next smaller integer , hence 71
+_____________________________________________________________
+
+

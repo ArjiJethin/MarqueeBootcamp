@@ -7,7 +7,7 @@ public class BaseConversions {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.printf(
-                "1)Binary to Octal\n2)Decimal to binary\n3)Octal to Binary\n4)Decimal to Octal\nEnter your Choice:");
+                "1)Binary to Octal\n2)Decimal to Binary\n3)Octal to Binary\n4)Decimal to Octal\nEnter your Choice:");
         int choice = sc.nextInt();
 
         switch (choice) {

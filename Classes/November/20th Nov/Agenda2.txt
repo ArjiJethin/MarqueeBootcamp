@@ -1,0 +1,72 @@
+Array is the fastest DS
+
+Maintenance is expensive
+
+Singly Linked List
+~~~~~~~~~~~~~~~~~~
+
+Linear Data Structure
+
+Always draw 
+
+Design the classes
+Class for Node
+
+Class for SLL
+
+
+Create a List
+Add Nodes
+	at Beginning	
+	at End
+	at Any specific position
+length
+	count
+	midpoint
+display
+	forward
+	reverse
+delete
+	by value
+	at Beginning	
+	at End
+	at Any specific position
+	delate all by value
+reverse a linked list
+1->2->3->4->5->6->7->8->9->10->11
+1<-2<-3<-4<-5<-5<-7<-8<-9<-10<-11
+reverse windows
+roll a linked list
+1->2->3->4->5->6->7->8->9->10->11
+1->11->2->10->3->9->4->8->5->7->6
+
+Palindromic Linked List
+
+
+detect loop
+
+remove loop
+
+
+LeetCode `
+There is a singly-linked list head and we want to delete a node node in it.
+
+You are given the node to be deleted node. You will not be given access to the first node of head.
+
+All the values of the linked list are unique, and it is guaranteed that the given node node is not the last node in the linked list.
+
+Delete the given node. Note that by deleting the node, we do not mean removing it from memory. We mean:
+
+The value of the given node should not exist in the linked list.
+The number of nodes in the linked list should decrease by one.
+All the values before node should be in the same order.
+All the values after node should be in the same order.
+Custom testing:
+
+For the input, you should provide the entire linked list head and the node to be given node. node should not be the last node of the list and should be an actual node in the list.
+We will build the linked list and pass the node to your function.
+The output will be the entire list after calling your function.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+

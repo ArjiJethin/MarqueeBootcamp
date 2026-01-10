@@ -1,0 +1,164 @@
+Write a program to print the following Output
+
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+_________________________________________________
+
+
+Write a program to print the following Output
+
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+12345678901234567890123456
+00000000011111111112222222
+
+
+____________________________________________________
+
+
+Write a program to print the following Output
+
+_BCD_FGH_JKLMN_PQRST_VWXYZ
+A___E___I_____O_____U_____
+
+
+____________________________________________________
+
+Write a program to print the multiplication table of any number 'n' until 16's multiple
+
+Constraint 
+2 <= n <= 99
+
+Sample
+n is 16
+16 X 1 = 16
+16 X 2 = 32
+16 X 3 = 48
+16 X 4 = 64
+16 X 5 = 80
+...
+16 X 16 = 196
+
+
+_______________________________________________________________
+
+Write a program to print the Fibonacci series until the given term
+
+3 <= term <= 10
+
+Sample
+term
+10
+
+0 1 1 2 3 5 8 13 21 34
+
+
+__________________________________________________________________
+
+Write a program to accept an integer 'n' and print the numbers that have ODD number of factors in the range 1 to 'n'
+
+10 <= n <= 10^6
+Sample
+n
+100
+1 4 9 16 25 36 49 64 81
+
+___________________________________________________________________
+
+Ugly numbers are positive integers whose only prime factors are 2, 3, and 5, with the sequence starting at 1 (1, 2, 3, 4, 5, 6, 8, 9, 10, 12, 15...). They are numbers of the form 2^a * 3^b * 5^c (where a, b, c ≥ 0). These numbers are common in coding challenges, often requiring algorithms to find the Nth ugly number or check if a given number is ugly.
+
+Write a program to accept an integer 'n' and print the first 'n' ugly numbers
+
+1 <= n <= 100
+
+Sample 
+n
+20
+1 2 3 4 5 6 8 9 10 12 15 18 20 21 24 25 27 30 32 36 
+
+
+_______________________________________________________________
+
+ Write a program to accept two integers 'b' and 'e', print the output as mentioned
+
+2 <= 'b', 'e' <= 9
+
+Sample:
+3 7
+Output
+3 ^ 0 = 1
+3 ^ 1 = 3 
+3 ^ 2 = 9
+3 ^ 3 = 27
+3 ^ 4 = 81
+3 ^ 5 = 243
+3 ^ 6 = 729 
+3 ^ 7 = 2187
+
+_____________________________________________________________
+When two numbers are added, the numbers being added are called addends, while the final result of the addition is called the sum.
+Write a program to accept two integers and add them and print the sum as mentioned
+
+1 <= addend1 , addend2 <= 5
+
+Sample 
+
+4 5
+
+Output
+
+Four + Five = Nine
+
+Note : Use switch to print the word of the digit
+_____________________________________________________________
+When two numbers are multiplied together, the result is called the product, and the numbers being multiplied are called factors. For example, in 3 * 4=12, the numbers 3 and 4 are factors, and 12 is the product. 
+
+The "multiplicand" is the number that has to be multiplied, and the "multiplier" is the number by which it is multiplied.
+
+Multiplication in mathematics is a fundamental arithmetic operation representing repeated addition. It's a shorthand way of adding the same number multiple times. The result of a multiplication is called the product. For example, 4 x 3 (4 multiplied by 3) means 4 + 4 + 4 = 12; the product is 12. 2.
+
+Write a program to accept two integers and find the product of them without using '*' operator.
+
+2 <= multiplicand, multiplier <= 10^7
+
+Note : Think of any optimization required
+
+______________________________________________________________
+
+Division is one of the four basic operations of arithmetic. The other operations are addition, subtraction, and multiplication. What is being divided is called the dividend, which is divided by the divisor, and the result is called the quotient, and might leave an remainder, when the divisor is not a perfect divisor
+
+The division is one of the four basic mathematical operations, the other three being addition, subtraction, and multiplication. In simple words, division can be defined as the splitting of a large group into smaller groups such that every group will have an equal number of items. It is an operation used for equal grouping and equal sharing in math. Let us learn about division operation in math in detail in this article.
+
+What is Division?
+~~~~~~~~~~~~~~~
+The division is one of the basic arithmetic operations in math in which a larger number is broken down into smaller groups having the same number of items. For example, for a sports event, if 30 students need to be divided into groups of 5 students, then how many total groups will be formed? Such problems can be solved easily using the division operation. Here we need to divide 30 by 5. The result will be 30 ÷ 5 = 6. So, there will be 6 groups of 5 students in each. You can verify this value by multiplying 6 and 5, which will give you the original number, 30.
+
+Division Definition
+~~~~~~~~~~~~~~~~~~~
+The division is the process of repetitive subtraction. It is the inverse of the multiplication operation. It is defined as the act of forming equal groups. While dividing numbers, we break down a larger number into smaller numbers such that the multiplication of those smaller numbers will be equal to the larger number taken. For example, 4 ÷ 2 = 2. This can be written as a multiplication fact as 2 × 2 = 4.
+
+Division Symbol
+~~~~~~~~~~~~~~
+The division is denoted by a mathematical symbol that consists of a small horizontal line with a dot each above and below the line. There are two basic division symbols that represent the division of two numbers. They are ÷ and /. For example, 4 ÷ 2 = 2, and 4/2 = 2.
+
+Parts of Division
+~~~~~~~~~~~~~~~
+Parts of division mean the name of the terms associated with the division process. There are four parts of the division, which are dividend, divisor, quotient, and remainder. Let us look at an example of division given below and understand the meanings of these four parts of the division.
+
+Write a program to accept two positive integers and perferm division operation and print the quotient and the remainder.
+
+10 <= dividend <= 10^7
+ 1 <= divisor  <= 10^3
+
+Sample
+
+17
+5
+
+Output
+
+3 2
+
+Note : As en extension, complete the same program to handle negative numbers also. Learn about -ve numbers is division
+
+__________________________________________________________ 

@@ -1,0 +1,22 @@
+Problem Statement: Nth character in Decrypted String
+Every character in the input string is followed by its frequency. Write a function to decrypt the string and find the nº character of the decrypted
+character exists at that position then return "-1". For eg:- if the input string is "a2b3" the decrypted string is "aabbb".
+Note: The frequency of encrypted string cannot be greater than a single digit Le
+Input Specification:
+input1: a string
+input2: n, the position of the character starting from 1
+Output Specification:
+Return the character which occurs at the n position in the decrypted string Return"-" if no character exists at that position.
+Example 1
+input1: a1b1c3 
+        abccc
+        12345
+input2: 5
+Output: c
+a5n7b10r5
+23
+aaaaannnnnnnbbbbbbbbbbrrrrr
+12345678901234567890123
+
+
+a5h6j9k4n5v7x9z1b8m2d9g4

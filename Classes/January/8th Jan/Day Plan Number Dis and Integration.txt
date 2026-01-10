@@ -1,0 +1,180 @@
+Given a number 'n' check if it can be represented as sum of two primes.
+
+2 <= n <= 10^9
+
+Output : Yes / No
+	6974
+
+Any number in it's base is written 10
+
+decimal		10		10
+bina		2		10
+octal		8		10
+hexa		6		10
+hd		16		10
+
+
+any power in any base is 1 followed by 0's
+
+		421
+		100		4
+		
+		100 10 1
+		1   0  0 	100
+
+		64 8 1
+		1  0 0		64
+
+Assemble
+Dis-assemble
+
+			6974
+		697		4
+		69		74
+		7		974
+
+		4
+		7
+		9
+		6
+
+
+
+
+
+
+		6974
+		6000 + 900 + 70 + 4
+		6*1000 + 9*100 + 7*10 + 4*1
+
+		1	10	100	1000		12345678	
+ 	87356873
+
+	2	6
+ 	87356873
+	80356873
+	80356073
+	88356073
+	88256773
+
+
+	108	1+0+8 = 9
+	108 % 9 => 0
+
+	2025
+	45^2
+	20+25=> 45
+
+
+
+
+
+
+	rytiu
+            ^
+           ^
+          ^
+         ^
+        ^
+
+		abcd
+		^
+		 ^
+		  ^
+		   ^
+
+
+
+
+
+
+		6974
+	697		4		10
+	69		74
+	6		974
+
+	 num		uyriuer
+         decimask       0001000
+	 num		6975219
+         decimask        0001000
+			697
+         quo = num / decimask
+	rem = num % decimask
+
+		6974
+		  10
+		6974%10		=> 4
+
+		6974/10
+		697%10		=> 7
+		697/10
+		69%10		=> 9
+		69/10
+		6%10		=> 6
+		6/10
+		0
+
+
+
+
+		while ( num != 0 )
+		{
+     		digit = num % 10;
+		// process
+		num = num / 10;
+		}
+// sum of digits
+// number of digits
+// harshad number
+// Armstrong number
+// kaprekar number
+// print word of the digit
+// given an Armstrong number - print the equation
+// twos powers - loop
+// twos powers - linear time
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
